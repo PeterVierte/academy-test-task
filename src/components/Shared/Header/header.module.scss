@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background: #000000;
+  gap: 30px;
+  padding: 20px;
+}
+
+.header__link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: opacity .2s linear;
+  position: relative;
+
+  & > span {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #7300ff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    right: -28px;
+    top: -10px;
+  }
+
+  &:hover {
+    opacity: .8;
+  }
+}
