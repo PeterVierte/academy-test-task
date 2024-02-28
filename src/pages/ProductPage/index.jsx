@@ -39,7 +39,6 @@ const ProductPage = () => {
         return <Loader/>
     }
 
-    console.log(product)
 
     return (
         <div className='container'>
